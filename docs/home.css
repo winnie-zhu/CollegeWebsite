@@ -1,0 +1,104 @@
+body{
+  background-color: grey;
+  margin: 0px;
+  font-family: 'Cabin';
+}
+
+.topnav {
+  background-color: #34495E;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FDFEFE  ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FDFEFE ;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#34495E ;
+  color:#FDFEFE   ;
+}
+
+.section-top{
+	width:100%;
+	overflow: hidden;
+	position: relative;
+	background-image: url("https://www.law.berkeley.edu/wp-content/uploads/2015/04/UCBerkeleyCampus.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: slide 30s infinite;
+  flex-grow: 1;
+
+}
+
+.content{
+  float: left;
+}
+.container{
+  display: flex;
+  height: -webkit-fill-available;
+}
+.logo{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translation(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+*/
+
+
+@keyframes slide{
+  0%{
+    background-image: url("https://www.law.berkeley.edu/wp-content/uploads/2015/04/UCBerkeleyCampus.jpg"); /*berkeley */
+  }
+  10%{
+    background-image: url("https://www.ucdavis.edu/sites/default/files/home-site/calendar/mondavi-center-building-uc-davis-1000px.jpg"); /*davis */
+  }
+  20%{
+    background-image: url("https://si.wsj.net/public/resources/images/BN-VC286_IRVINE_GR_20170913114831.jpg"); /*irvine */
+  }
+  30%
+  {
+    background-image: url("https://luskinconferencecenter.ucla.edu/wp-content/uploads/2018/03/Blog_Luskin.jpg"); /*la */
+  }
+  40%{
+    background-image: url("https://giving.ucmerced.edu/s/1650/images/editor/giving_stories/beginnings_sculpture.jpg"); /*merced */
+  }
+  50%{
+    background-image: url("https://www.cappex.com/sites/default/files/styles/1600x900/public/images/hero/college/110671_hero.jpg?itok=b9jwMMQ2"); /*riverside*/
+  }
+  60%{
+    background-image: url("https://pbs.twimg.com/media/D5BYYdpUwAAXP-g.jpg"); /*san diego */
+  }
+  70%{
+    background-image: url("https://www.thoughtco.com/thmb/nCogc66QOg4VzeZGvmUrhx4sFIc=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-509575915-59e22c62aad52b0011c17f38.jpg"); /*santa barabra*/
+  }
+  80%{
+    background-image: url("https://prnewswire2-a.akamaihd.net/p/1893751/sp/189375100/thumbnail/entry_id/1_htt4c9cn/def_height/2700/def_width/2700/version/100011/type/1"); /*santa cruz */
+  }
+  90%{
+    background-image: url("https://info.awv.com/hubfs/Image%20Gallery/UCSF,%20CA/UCSF-San-Francisco-CA-AWV-Louvers_1_1250x800.jpg"); /*sf */
+  }
+
+}

@@ -1,0 +1,227 @@
+body{
+background-color:gray;
+  margin:0px;
+  font-family: 'Cabin';
+}
+
+/** start of nav bar **/
+
+.topnav {
+  background-color: #34495E;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FDFEFE  ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FDFEFE ;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#34495E ;
+  color:#FDFEFE   ;
+}
+
+
+/** end of nav bar **/
+
+.centerinputq{
+display:flex;
+justify-content: center;
+
+
+
+}
+.inputquestions{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width:400px;
+
+}
+
+/** start of carousel code left side **/
+.container{
+  float:left;
+  display:block;
+  overflow:hidden;
+ }
+.carousel{
+
+  display:flex;
+  flex-direction: column ;
+  width: 400px;
+  height: auto;
+  background: black;
+  overflow-y: auto;
+  padding: 10px;
+  margin: 0;
+  white-space: nowrap;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    display: inline-block;
+    width: 380px;
+    margin: 0 10px;
+    height: 380px;
+    background: rgba(0, 0, 0, 0.05) no-repeat center center;
+    background-size: cover;
+    position:relative;
+
+}
+.item div{
+  width: 100%;
+  top:10%;
+  position:absolute;
+  text-align:center;
+  font-size: 9em;
+  color: white;
+}
+.item h1{
+  top: 50%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 4em;
+}
+
+#stanford{
+  background-image: url(https://cdn8.openculture.com/2018/01/07102514/12-Memorial-Church-from-Ma.jpg)
+}
+#usc{
+  background-image:url(https://i.ytimg.com/vi/eKMp-4Mmqdw/maxresdefault.jpg);
+}
+#ucsd{
+   background-image: url(https://ucsdnews.ucsd.edu/news_uploads/29751173968_195fb33dbc_z.jpg)
+}
+#sjsu{
+  background-image:url(http://www.sjsu.edu/_images/buildings/ADV_about-sjsu_2.jpg)
+}
+#ucd{
+  background-image:url(https://dz0zjhi21dz2t.cloudfront.net/media/80220/tour/1413360152595/1366_front.jpg)
+}
+
+#uw{
+background-image:url(https://seattlepianoinstitute.org/wp-content/uploads/2015/06/UW-Quad-1000x500.jpg)
+
+}
+#bu{
+  background-image:url(http://www.bu.edu/alzresearch/files/2017/05/Medical-Campus.jpg)
+}
+#ucsb{
+  background-image:url(https://www.news.ucsb.edu/sites/default/files/styles/article_horizontal/public/images/2018/uc-santa-barbara-storke-tower-ucen-ocean.jpg?itok=ZQdv3YS5)
+}
+#ccsf{
+  background-image:url(http://theguardsman.com/wp-content/uploads/2014/12/8-opinons-CollegeBacking-CCSF-NYDownes-012web.jpg)
+}
+
+/** end of carousel code left side **/
+
+
+/** start of carousel code right side **/
+.containerright{
+  float:right;
+  display:block;
+  overflow:hidden;
+ }
+.carouselright{
+
+  display:flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  background: black;
+  overflow-y: auto;
+  padding: 10px;
+  margin: 0;
+  white-space: nowrap;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.item2 {
+    display: inline-block;
+    width: 380px;
+    margin: 0 10px;
+    height: 380px;
+    background: rgba(0, 0, 0, 0.05) no-repeat center center;
+    background-size: cover;
+    position:relative;
+
+}
+.item2 div{
+  width: 100%;
+  top:10%;
+  position:absolute;
+  text-align:center;
+  font-size: 9em;
+  color: white;
+}
+.item2 h1{
+  top: 50%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 4em;
+}
+button{
+  display: block;
+  width: 40%;
+  font-family: 'Cabin';
+  height: 20px;
+  font-size: 15px;
+}
+#search{
+
+}
+
+#brown{
+  background-image: url(https://dz0zjhi21dz2t.cloudfront.net/media/135720/tour/1503610066380/1366_front.jpg)
+  }
+#sfsu{
+  background-image:url(https://www2.calstate.edu/attend/campuses/san-francisco/PublishingImages/sanfrancisco-1.jpg?RenditionID=10);
+}
+#carnegie{
+   background-image: url(https://www.usnews.com/dims4/USNEWS/5023abd/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fc7%2F5cc4f10c79126ea2a09bd2c7bebf75%2Fcollege-photo_33151.jpg)
+}
+#nyu{
+  background-image:url(https://engineering.nyu.edu/sites/default/files/styles/content_header_default_1x/public/2018-09/campus-convocation-2018-sign.jpg?h=69f2b9d0&itok=u8diKT3n)
+  }
+#upen{
+  background-image:url(https://cbsnews1.cbsistatic.com/hub/i/2016/11/11/06c8d524-ce5f-4adf-add9-41f281043875/penn.jpg)
+}
+
+#cornell{
+  background-image:url(https://www.cappex.com/sites/default/files/styles/1600x900/public/images/hero/college/190415_hero.jpg?itok=6babJr3I)
+}
+#ua{
+  background-image:url(https://upload.wikimedia.org/wikipedia/en/b/b6/Uofa.jpg)
+}
+#riceu{
+  background-image:url(https://www.news.ucsb.edu/sites/default/files/styles/article_horizontal/public/images/2018/uc-santa-barbara-storke-tower-ucen-ocean.jpg?itok=ZQdv3YS5)
+}
+#ponoma{
+  background-image:url(https://www.pomona.edu/sites/default/files/styles/banner/public/images/articles/snowy_mts_millikan.jpg?itok=HF45oDlx)
+}
+#hawaii{
+  background-image:url(https://www.news.ucsb.edu/sites/default/files/styles/article_horizontal/public/images/2018/uc-santa-barbara-storke-tower-ucen-ocean.jpg?itok=ZQdv3YS5)
+}
+#claire{
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvtlnGJ_97Z-Q6e3L80Fm0aAIvyRmEkun1iWgSQ--i0n0ZPZCQdw&s)
+}

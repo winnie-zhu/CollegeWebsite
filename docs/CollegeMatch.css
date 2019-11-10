@@ -1,0 +1,134 @@
+html {
+  height: 100px;
+}
+
+#noMarginBottom {
+  margin-bottom: 0px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#list {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.bottomContent {
+  border: 15px inset grey;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 100%;
+  background-color: lightgray;
+  float:right;
+
+}
+
+body {
+  margin: 0px;
+  font-family: 'Cabin';
+
+}
+
+.bg-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-image: url("https://www.oxy.edu/sites/default/files/styles/banner_image/public/page/banner-images/our-campus_1440x800.jpg?itok=NvRi2LGF");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#prompt {
+  color: black;
+}
+
+img {
+  float: left;
+  width: 280px;
+  height: 200px;
+}
+
+h2{
+  font-size: 35px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+
+}
+
+li {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom:5px;
+}
+
+h1 {
+  border: 15px outset grey;
+  background: lightgray;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.helpContainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.helpContainer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.topnav {
+  background-color: #34495E;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #FDFEFE  ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FDFEFE ;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#34495E ;
+  color:#FDFEFE   ;
+}
